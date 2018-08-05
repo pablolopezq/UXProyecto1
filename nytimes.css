@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+.title-header {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.title {
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.article {
+  padding: 0 10px;
+}
+
+.article-title {
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-content {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.small {
+  font-size: 8px;
+}
+
+.center-image {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.center {
+  width: 50%;
+}
+
+.side {
+  width: 25%;
+}
+
+.left {
+  border-right: 2px solid black;
+}
+
+.right {
+  border-left: 2px solid black;
+}
+
+.nav {
+  width: 75%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.item-link {
+  padding-left: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.item-1 {
+  background-color: blue;
+}
+
+.item-2 {
+  background-color: red;
+}
+
+.item-3 {
+  background-color: orange;
+}
+
+.item-4 {
+  background-color: purple;
+}
+
+.item-5 {
+  background-color: brown;
+}
+
+.copy-content {
+  padding-left: 40%;
+  text-align: center;
+}
